@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T12:07:04 IST" name="All Test Suite" finished-at="2023-05-25T12:10:04 IST" duration-ms="180160">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T12:07:04 IST" name="Chrome" finished-at="2023-05-25T12:10:04 IST" duration-ms="180160">
+      <class name="org.selenium.pom.tests.NavigationTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.NavigationTest@6c37bd27]" started-at="2023-05-25T12:09:46 IST" name="startDriver" finished-at="2023-05-25T12:09:51 IST" duration-ms="4746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="NavigateFromHomeToStoreUsingMainMenu()[pri:0, instance:org.selenium.pom.tests.NavigationTest@6c37bd27]" started-at="2023-05-25T12:09:51 IST" name="NavigateFromHomeToStoreUsingMainMenu" finished-at="2023-05-25T12:09:53 IST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateFromHomeToStoreUsingMainMenu -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.NavigationTest@6c37bd27]" started-at="2023-05-25T12:09:53 IST" name="quitDriver" finished-at="2023-05-25T12:09:56 IST" duration-ms="2481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=NavigateFromHomeToStoreUsingMainMenu status=SUCCESS method=NavigationTest.NavigateFromHomeToStoreUsingMainMenu()[pri:0, instance:org.selenium.pom.tests.NavigationTest@6c37bd27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.NavigationTest -->
+      <class name="org.selenium.pom.tests.CheckoutTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.CheckoutTest@29fc1a2b]" started-at="2023-05-25T12:08:30 IST" name="startDriver" finished-at="2023-05-25T12:08:34 IST" duration-ms="4399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="CheckoutWithAnAccountHavingABillingAddress()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@29fc1a2b]" started-at="2023-05-25T12:08:34 IST" name="CheckoutWithAnAccountHavingABillingAddress" finished-at="2023-05-25T12:08:59 IST" duration-ms="24611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutWithAnAccountHavingABillingAddress -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.CheckoutTest@29fc1a2b]" started-at="2023-05-25T12:08:59 IST" name="quitDriver" finished-at="2023-05-25T12:09:01 IST" duration-ms="2711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CheckoutWithAnAccountHavingABillingAddress status=SUCCESS method=CheckoutTest.CheckoutWithAnAccountHavingABillingAddress()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@29fc1a2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.CheckoutTest -->
+      <class name="org.selenium.pom.tests.SearchTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.SearchTest@25d3cfc8]" started-at="2023-05-25T12:09:56 IST" name="startDriver" finished-at="2023-05-25T12:10:00 IST" duration-ms="4439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="searchWithPartialMatch()[pri:0, instance:org.selenium.pom.tests.SearchTest@25d3cfc8]" started-at="2023-05-25T12:10:00 IST" name="searchWithPartialMatch" finished-at="2023-05-25T12:10:02 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithPartialMatch -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.SearchTest@25d3cfc8]" started-at="2023-05-25T12:10:02 IST" name="quitDriver" finished-at="2023-05-25T12:10:04 IST" duration-ms="2421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=searchWithPartialMatch status=SUCCESS method=SearchTest.searchWithPartialMatch()[pri:0, instance:org.selenium.pom.tests.SearchTest@25d3cfc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.SearchTest -->
+      <class name="org.selenium.pom.tests.AddToCartTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:05 IST" name="startDriver" finished-at="2023-05-25T12:07:16 IST" duration-ms="10433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:16 IST" name="addToCartFromHomePage" data-provider="getFeatureProducts" finished-at="2023-05-25T12:07:20 IST" duration-ms="3879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@1dde459c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromHomePage -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:20 IST" name="quitDriver" finished-at="2023-05-25T12:07:24 IST" duration-ms="4012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromHomePage status=SUCCESS method=AddToCartTest.addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:24 IST" name="startDriver" finished-at="2023-05-25T12:07:29 IST" duration-ms="4716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:29 IST" name="addToCartFromHomePage" data-provider="getFeatureProducts" finished-at="2023-05-25T12:07:34 IST" duration-ms="4921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@5ec6d9bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromHomePage -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:34 IST" name="quitDriver" finished-at="2023-05-25T12:07:36 IST" duration-ms="2308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromHomePage status=SUCCESS method=AddToCartTest.addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:36 IST" name="startDriver" finished-at="2023-05-25T12:07:40 IST" duration-ms="4489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:40 IST" name="addToCartFromHomePage" data-provider="getFeatureProducts" finished-at="2023-05-25T12:07:47 IST" duration-ms="6189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@7fb38ad6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromHomePage -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:47 IST" name="quitDriver" finished-at="2023-05-25T12:07:49 IST" duration-ms="2360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromHomePage status=SUCCESS method=AddToCartTest.addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:49 IST" name="startDriver" finished-at="2023-05-25T12:07:54 IST" duration-ms="4707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:54 IST" name="addToCartFromHomePage" data-provider="getFeatureProducts" finished-at="2023-05-25T12:07:58 IST" duration-ms="4583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@71b0f55d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromHomePage -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:07:58 IST" name="quitDriver" finished-at="2023-05-25T12:08:01 IST" duration-ms="2717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromHomePage status=SUCCESS method=AddToCartTest.addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:08:01 IST" name="startDriver" finished-at="2023-05-25T12:08:05 IST" duration-ms="4414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:08:05 IST" name="addToCartFromHomePage" data-provider="getFeatureProducts" finished-at="2023-05-25T12:08:11 IST" duration-ms="5282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.selenium.pom.objects.Product@133c469f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromHomePage -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:08:11 IST" name="quitDriver" finished-at="2023-05-25T12:08:13 IST" duration-ms="2363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromHomePage status=SUCCESS method=AddToCartTest.addToCartFromHomePage(org.selenium.pom.objects.Product)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:08:13 IST" name="startDriver" finished-at="2023-05-25T12:08:17 IST" duration-ms="4431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromStorePage()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:08:17 IST" name="addToCartFromStorePage" finished-at="2023-05-25T12:08:27 IST" duration-ms="9502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromStorePage -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733]" started-at="2023-05-25T12:08:27 IST" name="quitDriver" finished-at="2023-05-25T12:08:30 IST" duration-ms="2646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addToCartFromStorePage status=SUCCESS method=AddToCartTest.addToCartFromStorePage()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@27f74733] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.AddToCartTest -->
+      <class name="org.selenium.pom.tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.LoginTest@4d0b0fd4]" started-at="2023-05-25T12:09:01 IST" name="startDriver" finished-at="2023-05-25T12:09:06 IST" duration-ms="5022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginDuringCheckout()[pri:0, instance:org.selenium.pom.tests.LoginTest@4d0b0fd4]" started-at="2023-05-25T12:09:06 IST" name="loginDuringCheckout" finished-at="2023-05-25T12:09:19 IST" duration-ms="12457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDuringCheckout -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.LoginTest@4d0b0fd4]" started-at="2023-05-25T12:09:19 IST" name="quitDriver" finished-at="2023-05-25T12:09:21 IST" duration-ms="2220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginDuringCheckout status=SUCCESS method=LoginTest.loginDuringCheckout()[pri:0, instance:org.selenium.pom.tests.LoginTest@4d0b0fd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.LoginTest -->
+      <class name="org.selenium.pom.tests.MyFirstTestCase">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@7a24eb3]" started-at="2023-05-25T12:09:21 IST" name="startDriver" finished-at="2023-05-25T12:09:26 IST" duration-ms="4838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="guestCheckoutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@7a24eb3]" started-at="2023-05-25T12:09:26 IST" name="guestCheckoutUsingDirectBankTransfer" finished-at="2023-05-25T12:09:44 IST" duration-ms="17922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestCheckoutUsingDirectBankTransfer -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@7a24eb3]" started-at="2023-05-25T12:09:44 IST" name="quitDriver" finished-at="2023-05-25T12:09:46 IST" duration-ms="2602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=guestCheckoutUsingDirectBankTransfer status=SUCCESS method=MyFirstTestCase.guestCheckoutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.MyFirstTestCase@7a24eb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.MyFirstTestCase -->
+    </test> <!-- Chrome -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
